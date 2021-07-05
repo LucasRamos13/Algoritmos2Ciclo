@@ -1,0 +1,35 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Formulário</title>
+</head>
+
+<body>
+<h1>Formulário</h1>
+<form action="processa.php" name="formulario" method="get">
+	Nome:	<input name="nome" type="text"><br>
+			<label for="opção">Sexo:</label>
+			<input type="radio" name="opção" value="homem"/>Homem
+			<input type="radio" name="opção" value="mulher"/>Mulher<br>
+	Cor dos olhos:	<select name="CorOlhos">
+  <option value="azul">azul</option>
+  <option value="verde">verde</option>
+  <option value="marrom">marrom</option>
+  <option value="castanho">castanho</option>
+  <option value="preto">preto</option>
+  <option value="amarelo">amarelo</option>
+  <option value="vermelho">vermelho</option>
+  <option value="nenhum">não tenho olhos</option>
+</select>
+	Marque se lhe descreve:	<input type="checkbox" name="altura"/>Acima de 1,83 de altura
+			<input type="checkbox" name="peso"/>Acima de 91kg de peso<br>
+	Descreva sua capacidade física:
+	<textarea name="fis" id="fis"></textarea>
+		<input name="btnEnviar" type="submit" value="Enviar"><br>
+
+</form>
+</body>
+</html>
+
+                   
+                   
